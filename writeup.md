@@ -22,7 +22,7 @@ A video showing the entire simulation is here: [output/success-720p.mov](output/
 
 The particle filter is implemented as taught in the lessons.
 
-[L33-L62 : ](https://github.com/arrawatia/CarND-Kidnapped-Vehicle-Project/blob/master/src/particle_filter.cpp#L33-L62)The particles are initialized from a Gaussian distribution around the GPS measurements and heading. 
+[L33-L62 : ](https://github.com/arrawatia/CarND-Kidnapped-Vehicle-Project/blob/master/src/particle_filter.cpp#L33-L62)The particles are initialized from a Gaussian distribution centered around the GPS measurements. 
 
 [L76-L112 : ](https://github.com/arrawatia/CarND-Kidnapped-Vehicle-Project/blob/master/src/particle_filter.cpp#L76-L112) The position of particles at the next timestep is predicted using the bicycle motion model.
 
