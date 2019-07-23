@@ -30,4 +30,4 @@ The particle filter is implemented as taught in the lessons.
 
 [L176-L240 : ](https://github.com/arrawatia/CarND-Kidnapped-Vehicle-Project/blob/master/src/particle_filter.cpp#L176-L240) The importance weights for all particles are computed using the algorithm discussed in the class. The first step is to convert the observations to map coordinates, then they are associated with the closest landmarks. The weights are calculated using the multivariate Gaussian distribution.
 
- [L251-L283 : ](https://github.com/arrawatia/CarND-Kidnapped-Vehicle-Project/blob/master/src/particle_filter.cpp#L251-L283) The next batch of particles are sampled from the distribution based on their weights using the **Resampling wheel algorithm**
+ [L251-L283 : ](https://github.com/arrawatia/CarND-Kidnapped-Vehicle-Project/blob/master/src/particle_filter.cpp#L251-L283) The next batch of particles are sampled from the current set of particles. The sampling algorithm selects the particles based on their weights. We use the **Resampling wheel algorithm** for this task.
